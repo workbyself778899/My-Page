@@ -1,0 +1,24 @@
+.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: bisque;
+    
+}
+.c-size{
+    width: 220px;
+    height: 250px;
+    border: 4px solid white;
+}
+.c-color{
+    background-color: bisque;
+}   
+section{
+    height: 70vh;
+}
+@media (max-width: 600px) {
+    section {
+        height: auto;
+    }
+}
